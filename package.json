@@ -1,0 +1,71 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev-serve": "vue-cli-service serve --mode development",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-regular-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
+    "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "ly-tab": "^2.1.2",
+    "moment": "^2.24.0",
+    "socket.io-client": "^2.2.0",
+    "sweetalert": "^2.1.2",
+    "vue": "^2.5.17",
+    "vue-cookie": "^1.1.4",
+    "vue-meta": "^2.0.5",
+    "vue-router": "^3.0.1",
+    "vue-socket.io": "^3.0.5",
+    "vue-sweetalert2": "^1.6.4",
+    "vue-tour": "^1.1.0",
+    "vue-yandex-maps": "^0.8.13",
+    "vue-zondicons": "^0.1.10",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.1.1",
+    "@vue/cli-plugin-eslint": "^3.1.5",
+    "@vue/cli-service": "^3.1.4",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "photoeditorsdk": "^4.16.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "vue-pesdk": "^0.2.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
